@@ -32,7 +32,7 @@ class FolioServiceProvider extends ServiceProvider
         Folio::path(resource_path('views/demo-site/news'))->uri('/news');
 
         // 会社概要ページ
-        Folio::path(resource_path('views/demo-site'))->uri('/about');
+        Folio::path(resource_path('views/demo-site/about'))->uri('/about');
 
         // 問い合わせページ
         Folio::path(resource_path('views/demo-site/contact'))->uri('/contact');
@@ -41,9 +41,9 @@ class FolioServiceProvider extends ServiceProvider
         Folio::path(resource_path('views/demo-site'))->uri('/lp');
 
         // プライバシーポリシー
-        Folio::path(resource_path('views/demo-site'))->uri('/privacy-policy');
+        Folio::path(resource_path('views/demo-site/privacy-policy'))->uri('/privacy-policy');
 
         // 利用規約
-        Folio::path(resource_path('views/demo-site'))->uri('/terms');
+        Folio::path(resource_path('views/demo-site/terms'))->uri('/terms');
     }
 }

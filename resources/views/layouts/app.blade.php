@@ -10,7 +10,7 @@
     <header class="bg-blue-500 text-white">
         <div class="container mx-auto flex justify-between items-center py-4 px-4 md:px-6">
             <!-- ロゴ -->
-            <a href="/" class="text-2xl font-bold">サンプルサイト</a>
+            <a href="/demo-site" class="text-2xl font-bold">サンプルサイト</a>
             
             <!-- ハンバーガーボタン（モバイル用） -->
             <button id="menu-toggle" class="block md:hidden text-white focus:outline-none">

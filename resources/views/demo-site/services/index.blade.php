@@ -7,17 +7,17 @@
         <li class="p-6 bg-white shadow rounded">
             <h2 class="text-lg font-semibold text-gray-800">サービス１</h2>
             <p class="text-gray-600">〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇</p>
-            <a href="/services/service1" class="text-blue-500 hover:underline">詳細を見る</a>
+            <a href="/demo-site/services/service1" class="text-blue-500 hover:underline">詳細を見る</a>
         </li>
         <li class="p-6 bg-white shadow rounded">
             <h2 class="text-lg font-semibold text-gray-800">サービス２</h2>
             <p class="text-gray-600">〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇</p>
-            <a href="/services/service2" class="text-blue-500 hover:underline">詳細を見る</a>
+            <a href="/demo-site/services/service2" class="text-blue-500 hover:underline">詳細を見る</a>
         </li>
         <li class="p-6 bg-white shadow rounded">
             <h2 class="text-lg font-semibold text-gray-800">サービス３</h2>
             <p class="text-gray-600">〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇</p>
-            <a href="/services/service3" class="text-blue-500 hover:underline">詳細を見る</a>
+            <a href="/demo-site/services/service3" class="text-blue-500 hover:underline">詳細を見る</a>
         </li>
     </ul>
 </div>

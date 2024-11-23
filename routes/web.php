@@ -3,10 +3,10 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('index');
+    return view('/demo-site/index');
 });
 
-Route::post('/contact/complete', function () {
+Route::post('/demo-site/contact/complete', function () {
     // POSTデータの処理をここに記載します
-    return view('contact.complete'); // 完了ページを表示
+    return view('demo-site/contact.complete'); // 完了ページを表示
 });

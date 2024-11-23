@@ -21,21 +21,21 @@
     
             <!-- ナビゲーションメニュー -->
             <nav id="menu" class="hidden md:flex space-x-4 items-center">
-                <a href="/" class="hover:underline">ホーム</a>
-                <a href="/services" class="hover:underline">サービス</a>
-                <a href="/news" class="hover:underline">お知らせ</a>
-                <a href="/about" class="hover:underline">会社概要</a>
-                <a href="/contact" class="hover:underline">お問い合わせ</a>
+                <a href="/demo-site" class="hover:underline">ホーム</a>
+                <a href="/demo-site/services" class="hover:underline">サービス</a>
+                <a href="/demo-site/news" class="hover:underline">お知らせ</a>
+                <a href="/demo-site/about" class="hover:underline">会社概要</a>
+                <a href="/demo-site/contact" class="hover:underline">お問い合わせ</a>
             </nav>
         </div>
     
         <!-- モバイル用ナビゲーションメニュー -->
         <nav id="mobile-menu" class="hidden md:hidden bg-blue-600 text-white space-y-2 p-4">
-            <a href="/" class="block hover:underline">ホーム</a>
-            <a href="/services" class="block hover:underline">サービス</a>
-            <a href="/news" class="block hover:underline">お知らせ</a>
-            <a href="/about" class="block hover:underline">会社概要</a>
-            <a href="/contact" class="block hover:underline">お問い合わせ</a>
+            <a href="/demo-site" class="block hover:underline">ホーム</a>
+            <a href="/demo-site/services" class="block hover:underline">サービス</a>
+            <a href="/demo-site/news" class="block hover:underline">お知らせ</a>
+            <a href="/demo-site/about" class="block hover:underline">会社概要</a>
+            <a href="/demo-site/contact" class="block hover:underline">お問い合わせ</a>
         </nav>
     </header>
 
@@ -49,10 +49,10 @@
             <div>
                 <h2 class="text-lg font-semibold mb-4 border-b border-gray-700 pb-2">サービス一覧</h2>
                 <ul class="space-y-2">
-                    <li><a href="/services/service1" class="hover:underline">サービス１</a></li>
-                    <li><a href="/services/service2" class="hover:underline">サービス２</a></li>
-                    <li><a href="/services/service3" class="hover:underline">サービス３</a></li>
-                    <li><a href="/services/FAQ" class="hover:underline">サービスについてのよくある質問</a></li>
+                    <li><a href="/demo-site/services/service1" class="hover:underline">サービス１</a></li>
+                    <li><a href="/demo-site/services/service2" class="hover:underline">サービス２</a></li>
+                    <li><a href="/demo-site/services/service3" class="hover:underline">サービス３</a></li>
+                    <li><a href="/demo-site/services/FAQ" class="hover:underline">サービスについてのよくある質問</a></li>
                 </ul>
             </div>
             
@@ -62,15 +62,15 @@
                 <ul class="space-y-4">
                     <li class="flex items-center">
                         <span class="text-gray-400 text-sm mr-2">news1</span>
-                        <a href="/news/news1" class="hover:underline flex-1">〇〇〇〇〇〇〇〇〇</a>
+                        <a href="/demo-site/news/news1" class="hover:underline flex-1">〇〇〇〇〇〇〇〇〇</a>
                     </li>
                     <li class="flex items-center">
                         <span class="text-gray-400 text-sm mr-2">news2</span>
-                        <a href="/news/news2" class="hover:underline flex-1">〇〇〇〇〇〇〇〇〇</a>
+                        <a href="/demo-site/news/news2" class="hover:underline flex-1">〇〇〇〇〇〇〇〇〇</a>
                     </li>
                     <li class="flex items-center">
                         <span class="text-gray-400 text-sm mr-2">news3</span>
-                        <a href="/news/news3" class="hover:underline flex-1">〇〇〇〇〇〇〇〇〇</a>
+                        <a href="/demo-site/news/news3" class="hover:underline flex-1">〇〇〇〇〇〇〇〇〇</a>
                     </li>
                 </ul>
             </div>
@@ -79,8 +79,8 @@
             <div>
                 <h2 class="text-lg font-semibold mb-4 border-b border-gray-700 pb-2">About</h2>
                 <ul class="space-y-2">
-                    <li><a href="/about" class="hover:underline flex items-center">運営会社 <span class="ml-auto">&rarr;</span></a></li>
-                    <li><a href="/privacy-policy" class="hover:underline flex items-center">プライバシーポリシー <span class="ml-auto">&rarr;</span></a></li>
+                    <li><a href="/demo-site/about" class="hover:underline flex items-center">運営会社 <span class="ml-auto">&rarr;</span></a></li>
+                    <li><a href="/demo-site/privacy-policy" class="hover:underline flex items-center">プライバシーポリシー <span class="ml-auto">&rarr;</span></a></li>
                 </ul>
             </div>
         </div>

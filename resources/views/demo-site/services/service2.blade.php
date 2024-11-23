@@ -87,7 +87,7 @@
 
         <!-- セクション5: お問い合わせボタン -->
         <div class="text-center">
-            <a href="/contact" class="inline-block bg-blue-500 text-white px-6 py-3 rounded hover:bg-blue-600">
+            <a href="/demo-site/contact" class="inline-block bg-blue-500 text-white px-6 py-3 rounded hover:bg-blue-600">
                 このサービスについて問い合わせる
             </a>
         </div>

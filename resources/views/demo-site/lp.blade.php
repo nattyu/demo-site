@@ -8,7 +8,7 @@
     <p class="text-lg text-gray-700 mb-6">
         今だけ限定の特別なオファーをご利用ください。
     </p>
-    <a href="/contact" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
+    <a href="/demo-site/contact" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
         詳細はこちら
     </a>
 </div>

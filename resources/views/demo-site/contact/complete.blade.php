@@ -9,7 +9,7 @@
         <p class="text-gray-600 mb-6">
             お問い合わせ内容を確認の上、担当者よりご連絡いたします。返信には少々お時間をいただく場合がございます。
         </p>
-        <a href="/" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
+        <a href="/demo-site" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
             ホームへ戻る
         </a>
     </div>

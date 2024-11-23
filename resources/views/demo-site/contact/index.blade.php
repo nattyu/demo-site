@@ -3,7 +3,7 @@
 @section('content')
 <div class="bg-white p-6 shadow rounded max-w-md mx-auto">
     <h1 class="text-2xl font-bold text-gray-900 mb-4">お問い合わせ</h1>
-    <form action="/contact/complete" method="POST" class="space-y-4">
+    <form action="/demo-site/contact/complete" method="POST" class="space-y-4">
         @csrf
         <div>
             <label for="name" class="block text-sm font-medium text-gray-700">氏名</label>

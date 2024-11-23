@@ -23,27 +23,27 @@ class FolioServiceProvider extends ServiceProvider
         Folio::path(resource_path('views/blog'))->uri('/blog');
         
         // ホームページ
-        Folio::path(resource_path('views'))->uri('/');
+        Folio::path(resource_path('views/demo-site'))->uri('/demo-site');
 
         // サービスページ
-        Folio::path(resource_path('views/services'))->uri('/services');
+        Folio::path(resource_path('views/demo-site/services'))->uri('/services');
 
         // お知らせページ
-        Folio::path(resource_path('views/news'))->uri('/news');
+        Folio::path(resource_path('views/demo-site/news'))->uri('/news');
 
         // 会社概要ページ
-        Folio::path(resource_path('views'))->uri('/about');
+        Folio::path(resource_path('views/demo-site'))->uri('/about');
 
         // 問い合わせページ
-        Folio::path(resource_path('views/contact'))->uri('/contact');
+        Folio::path(resource_path('views/demo-site/contact'))->uri('/contact');
 
         // ランディングページ
-        Folio::path(resource_path('views'))->uri('/lp');
+        Folio::path(resource_path('views/demo-site'))->uri('/lp');
 
         // プライバシーポリシー
-        Folio::path(resource_path('views'))->uri('/privacy-policy');
+        Folio::path(resource_path('views/demo-site'))->uri('/privacy-policy');
 
         // 利用規約
-        Folio::path(resource_path('views'))->uri('/terms');
+        Folio::path(resource_path('views/demo-site'))->uri('/terms');
     }
 }

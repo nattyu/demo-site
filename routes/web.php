@@ -8,5 +8,5 @@ Route::get('/', function () {
 
 Route::post('/demo-site/contact/complete', function () {
     // POSTデータの処理をここに記載します
-    return view('demo-site/contact.complete'); // 完了ページを表示
+    return view('/demo-site/contact.complete'); // 完了ページを表示
 });
